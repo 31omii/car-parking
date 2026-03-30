@@ -66,11 +66,6 @@ car-parking/
 
 ## Setup & Installation
 
-### Prerequisites
-- Python 3.8+
-- A parking lot video file
-- A binary mask image matching the video resolution
-
 ### 1. Clone the Repository
 
 ```bash
@@ -231,18 +226,12 @@ pip install -r req.txt
 
 ## Potential Improvements
 
-- [ ] Replace hardcoded paths with `argparse` or a `config.yaml`
-- [ ] Add a live frame counter and FPS display
-- [ ] Swap SVM for a lightweight CNN or MobileNet for better generalization
-- [ ] Add support for live webcam / RTSP camera streams
-- [ ] Export occupancy logs to CSV with timestamps
-- [ ] Build a simple web dashboard using Flask + OpenCV streaming
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- Replace hardcoded paths with `argparse` or a `config.yaml`
+- Add a live frame counter and FPS display
+- Swap SVM for a lightweight CNN or MobileNet for better generalization
+- Add support for live webcam / RTSP camera streams
+- Export occupancy logs to CSV with timestamps
+- Build a simple web dashboard using Flask + OpenCV streaming
 
 ---
 
